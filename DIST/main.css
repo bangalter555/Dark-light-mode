@@ -29,6 +29,7 @@
 .header-dark-mode {
   background-color: #666;
   color: #ea9d39;
+  transition: 200ms ease;
 }
 
 .dark-light-mode {
@@ -45,7 +46,7 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px 2px 10px #666;
+  box-shadow: 2px 2px 10px #857777;
 }
 
 .dark {
