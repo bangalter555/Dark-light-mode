@@ -4,9 +4,11 @@ import { $darkLightMode } from "./_Dark-Light-Button.js";
 //Window
 const $window = window;
 //Documento HTML
-const $documentHTML = document.documentElement;
+const $d = document;
 //head HTML
 const $documentHead = document.head;
+
+const ls = localStorage;
 
 //Links
 const $linkToStyles = document.createElement("link");
@@ -40,4 +42,4 @@ $pageTitle.classList.add("page-title");
 $header.insertAdjacentElement("afterend", $darkLightMode);
 
 //EXPORTS
-export { $documentHTML };
+export { $d, ls };
